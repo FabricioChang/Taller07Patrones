@@ -8,6 +8,9 @@ package com.mycompany.taller7;
  *
  * @author CltControl
  */
-public class OtherFormatReport {
-    
+public class OtherFormatReport implements Report{
+    @Override
+    public void addCustomizations() {
+        System.out.println("Generating Excel Report");
+    }
 }
