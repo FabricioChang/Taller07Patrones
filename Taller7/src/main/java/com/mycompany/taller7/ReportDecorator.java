@@ -9,9 +9,9 @@ package com.mycompany.taller7;
  * @author CltControl
  */
 public abstract class ReportDecorator implements ReportInterface {
-    protected Report decoratedReport;
+    protected ReportInterface decoratedReport;
 
-    public ReportDecorator(Report decoratedReport) {
+    public ReportDecorator(ReportInterface decoratedReport) {
         this.decoratedReport = decoratedReport;
     }
 
