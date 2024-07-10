@@ -8,6 +8,9 @@ package com.mycompany.taller7;
  *
  * @author CltControl
  */
-public class TelegramService {
-    
+public class TelegramService  {
+    public void sendTelegramMessage(String message) {
+        System.out.println("Sending Telegram message: " + message);
+    }
 }
+
