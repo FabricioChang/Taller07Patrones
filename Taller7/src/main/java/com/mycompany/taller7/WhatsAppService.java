@@ -8,6 +8,8 @@ package com.mycompany.taller7;
  *
  * @author CltControl
  */
-public class WhatsAppService {
-    
+public class WhatsAppService  {
+    public void sendWhatsAppMessage(String message) {
+        System.out.println("Sending WhatsApp message: " + message);
+    }
 }

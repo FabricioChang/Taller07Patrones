@@ -8,6 +8,15 @@ package com.mycompany.taller7;
  *
  * @author CltControl
  */
-public class TelegramAdapter {
-    
+public class TelegramAdapter  implements NotificationService {
+    private TelegramService telegramService;
+
+    public TelegramAdapter(TelegramService telegramService) {
+        this.telegramService = telegramService;
+    }
+
+    public void sendNotification(String message) {
+        telegramService.sendTelegramMessage(message);
+    }
 }
+

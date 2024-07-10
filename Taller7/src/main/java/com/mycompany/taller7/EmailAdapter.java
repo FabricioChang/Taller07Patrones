@@ -8,6 +8,14 @@ package com.mycompany.taller7;
  *
  * @author CltControl
  */
-public class EmailAdapter {
-    
+public class EmailAdapter implements NotificationService {
+    private EmailService emailService;
+
+    public EmailAdapter(EmailService emailService) {
+        this.emailService = emailService;
+    }
+
+    public void sendNotification(String message) {
+        emailService.sendEmail(message);
+    }
 }
