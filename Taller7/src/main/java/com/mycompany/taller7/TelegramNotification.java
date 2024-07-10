@@ -9,8 +9,8 @@ package com.mycompany.taller7;
  * @author CltControl
  */
 public class TelegramNotification  {
-    public void sendTelegramMessage(String message) {
-        System.out.println("Sending Telegram message: " + message);
+    public void notify(String message) {
+        System.out.println("Sending WhatsApp message: " + message);
     }
 }
 

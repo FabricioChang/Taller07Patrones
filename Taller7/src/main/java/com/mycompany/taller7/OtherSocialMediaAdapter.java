@@ -8,14 +8,9 @@ package com.mycompany.taller7;
  *
  * @author CltControl
  */
-public class OtherSocialMediaAdapter extends OtherSocialMediaNotification{
-
-    public OtherSocialMediaAdapter(Report decoratedReport) {
-        super(decoratedReport);
-    }
-    
+public class OtherSocialMediaAdapter  extends WhatsAppNotification {
     @Override
-    public void notify(){
-        
+    public void notify(String message){
+        System.out.println("Sending WhatsApp message: " + message);
     }
 }

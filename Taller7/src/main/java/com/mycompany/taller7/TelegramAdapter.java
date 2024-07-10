@@ -8,15 +8,10 @@ package com.mycompany.taller7;
  *
  * @author CltControl
  */
-public class TelegramAdapter  implements NotificationService {
-    private TelegramNotification telegramService;
-
-    public TelegramAdapter(TelegramNotification telegramService) {
-        this.telegramService = telegramService;
-    }
-
-    public void sendNotification(String message) {
-        telegramService.sendTelegramMessage(message);
+public class TelegramAdapter  extends WhatsAppNotification {
+    @Override
+    public void notify(String message){
+        System.out.println("Sending WhatsApp message: " + message);
     }
 }
 

@@ -8,15 +8,10 @@ package com.mycompany.taller7;
  *
  * @author CltControl
  */
-public class WhatsAppAdapter  extends Notifications {
-    private WhatsAppNotification whatsAppService;
-
-    public WhatsAppAdapter(WhatsAppNotification whatsAppService) {
-        this.whatsAppService = whatsAppService;
-    }
-
-    public void showNotification() {
-        whatsAppService.showWhatsAppMessage();
+public class WhatsAppAdapter  extends WhatsAppNotification {
+    @Override
+    public void notify(String message){
+        System.out.println("Sending WhatsApp message: " + message);
     }
 }
 
