@@ -8,6 +8,6 @@ package com.mycompany.taller7;
  *
  * @author CltControl
  */
-public interface NotificationService  {
-    void sendNotification(String message);
+public class FacebookAdapter {
+    
 }

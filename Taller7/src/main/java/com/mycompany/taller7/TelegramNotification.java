@@ -8,11 +8,9 @@ package com.mycompany.taller7;
  *
  * @author CltControl
  */
-public class OtherFormatReport implements Report {
-
-    @Override
-    public void addCustomizations() {
-        System.out.println("Generating Other Format Report");
+public class TelegramNotification  {
+    public void sendTelegramMessage(String message) {
+        System.out.println("Sending Telegram message: " + message);
     }
 }
 

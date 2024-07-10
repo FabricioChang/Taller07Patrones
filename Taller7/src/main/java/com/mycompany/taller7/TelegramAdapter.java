@@ -9,9 +9,9 @@ package com.mycompany.taller7;
  * @author CltControl
  */
 public class TelegramAdapter  implements NotificationService {
-    private TelegramService telegramService;
+    private TelegramNotification telegramService;
 
-    public TelegramAdapter(TelegramService telegramService) {
+    public TelegramAdapter(TelegramNotification telegramService) {
         this.telegramService = telegramService;
     }
 
