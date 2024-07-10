@@ -8,14 +8,14 @@ package com.mycompany.taller7;
  *
  * @author CltControl
  */
-public class FontFeatures extends ReportFeature{
+public class OtherSocialMediaAdapter extends OtherSocialMediaNotification{
 
-    @Override
-    public void addCustomizations() {
-        
+    public OtherSocialMediaAdapter(Report decoratedReport) {
+        super(decoratedReport);
     }
     
+    @Override
+    public void notify(){
+        
+    }
 }
-
-
-

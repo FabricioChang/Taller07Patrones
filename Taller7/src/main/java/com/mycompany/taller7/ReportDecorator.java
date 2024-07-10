@@ -8,7 +8,7 @@ package com.mycompany.taller7;
  *
  * @author CltControl
  */
-public abstract class ReportDecorator implements Report {
+public class OtherSocialMediaNotification{
     protected Report decoratedReport;
 
     public ReportDecorator(Report decoratedReport) {
