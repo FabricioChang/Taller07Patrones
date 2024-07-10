@@ -8,7 +8,7 @@ package com.mycompany.taller7;
  *
  * @author CltControl
  */
-public class ExcelReport extends ReportGenerator {
+public class ExcelReport implements ReportInterface {
 
     public ExcelReport() {
     }

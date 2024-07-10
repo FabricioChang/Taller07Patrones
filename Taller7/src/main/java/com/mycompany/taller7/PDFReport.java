@@ -8,7 +8,7 @@ package com.mycompany.taller7;
  *
  * @author CltControl
  */
-public class PDFReport extends ReportGenerator {
+public class PDFReport implements ReportInterface {
     @Override
     public void generate() {
         System.out.println("Generating PDF Report");
