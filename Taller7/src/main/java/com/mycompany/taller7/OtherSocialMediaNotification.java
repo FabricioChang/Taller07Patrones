@@ -8,14 +8,8 @@ package com.mycompany.taller7;
  *
  * @author CltControl
  */
-public class FontFeatures extends ReportFeature{
-
-    @Override
-    public void addCustomizations() {
-        
+public class OtherSocialMediaNotification  {
+    public void notify(String message) {
+        System.out.println("Sending WhatsApp message: " + message);
     }
-    
 }
-
-
-

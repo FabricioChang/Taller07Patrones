@@ -8,9 +8,8 @@ package com.mycompany.taller7;
  *
  * @author CltControl
  */
-public class EmailService  {
-    public void sendEmail(String message) {
-        System.out.println("Sending email: " + message);
+public class Notifications {
+    public void showNotifications(){
+        
     }
 }
-

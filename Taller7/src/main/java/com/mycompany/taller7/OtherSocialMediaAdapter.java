@@ -8,6 +8,9 @@ package com.mycompany.taller7;
  *
  * @author CltControl
  */
-public interface NotificationService  {
-    void sendNotification(String message);
+public class OtherSocialMediaAdapter  extends WhatsAppNotification {
+    @Override
+    public void notify(String message){
+        System.out.println("Sending WhatsApp message: " + message);
+    }
 }
