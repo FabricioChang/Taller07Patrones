@@ -9,5 +9,8 @@ package com.mycompany.taller7;
  * @author CltControl
  */
 public class BasicReport {
-    
+    public void generate() {
+        System.out.println("Generating Basic Report");
+    }
+
 }
