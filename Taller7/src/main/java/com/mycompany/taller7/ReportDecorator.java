@@ -8,10 +8,10 @@ package com.mycompany.taller7;
  *
  * @author CltControl
  */
-public abstract class ReportDecorator implements ReportInterface {
-    protected ReportInterface decoratedReport;
+public abstract class ReportDecorator implements Report {
+    protected Report decoratedReport;
 
-    public ReportDecorator(ReportInterface decoratedReport) {
+    public ReportDecorator(Report decoratedReport) {
         this.decoratedReport = decoratedReport;
     }
 

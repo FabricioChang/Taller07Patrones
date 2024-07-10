@@ -9,7 +9,7 @@ package com.mycompany.taller7;
  * @author CltControl
  */
 public class ColorDecorator extends ReportDecorator {
-    public ColorDecorator(ReportInterface decoratedReport) {
+    public ColorDecorator(Report decoratedReport) {
         super(decoratedReport);
     }
 

@@ -8,9 +8,9 @@ package com.mycompany.taller7;
  *
  * @author CltControl
  */
-public class WordReport implements ReportInterface {
+public class TextReport implements Report {
     @Override
-    public void generate() {
+    public void addCustomizations() {
         System.out.println("Generating Word Report");
     }
 }
