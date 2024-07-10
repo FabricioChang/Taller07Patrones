@@ -8,6 +8,10 @@ package com.mycompany.taller7;
  *
  * @author CltControl
  */
-public class Text {
-    
+public class Text  extends GenerateReport {
+     @Override 
+     public Report createReport(){
+     	return new TextReport();
+     }
 }
+

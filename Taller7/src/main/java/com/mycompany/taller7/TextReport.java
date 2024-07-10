@@ -11,7 +11,7 @@ package com.mycompany.taller7;
 public class TextReport implements Report {
     @Override
     public void addCustomizations() {
-        System.out.println("Generating Word Report");
+        System.out.println("Generating text Report");
     }
 }
 

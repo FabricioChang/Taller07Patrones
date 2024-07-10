@@ -8,7 +8,10 @@ package com.mycompany.taller7;
  *
  * @author CltControl
  */
-public abstract class ReportFeature {
-    public abstract void addCustomizations();
-       
+public abstract class GenerateReport {
+   public void generate(){
+   Report report = createReport();
+   }
+   public abstract Report createReport();
 }
+

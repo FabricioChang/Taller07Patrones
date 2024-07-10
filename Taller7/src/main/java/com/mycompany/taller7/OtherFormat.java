@@ -8,17 +8,9 @@ package com.mycompany.taller7;
  *
  * @author CltControl
  */
-public class ReportFactory {
-    public Report createReport(String type) {
-        switch (type) {
-            case "PDF":
-                return new PDFReport();
-            case "Excel":
-                return new ExcelReport();
-            case "Word":
-                return new TextReport();
-            default:
-                throw new IllegalArgumentException("Unknown report type");
-        }
-    }
+public class OtherFormat extends GenerateReport {
+     @Override 
+      public Report createReport(){
+          return new OtherFormatReport();
+     }
 }
