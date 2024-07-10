@@ -8,18 +8,21 @@ package com.mycompany.taller7;
  *
  * @author CltControl
  */
-public class ColorDecorator extends ReportDecorator {
-    public ColorDecorator(Report decoratedReport) {
+public class FontFeatures extends ReportDecorator {
+    public FontFeatures(Report decoratedReport) {
         super(decoratedReport);
     }
-
+    
     @Override
     public void generate() {
         decoratedReport.generate();
-        addColor();
+        changeFont();
     }
 
-    private void addColor() {
-        System.out.println("Adding Color to Report");
+    private void changeFont() {
+        System.out.println("Changing Font of Report");
     }
 }
+
+
+
